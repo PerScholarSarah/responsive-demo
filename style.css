@@ -1,0 +1,90 @@
+@media screen and (min-width:1081px)
+{
+    body{
+        background-color:darkred;
+        color:black;
+    }
+    .titleContainer, .imgContainer{
+        border: solid black;
+    }
+
+    .imgContainer{
+        background-image:url("https://images4.alphacoders.com/124/1249111.jpg")
+    }
+
+    #republic{
+        display:none;
+    }
+    #rebels{
+        display:none;
+    }
+    #empire{
+        display:block;
+    }
+}
+
+@media screen and (max-width:1080px)
+{
+    body{
+        background-color:royalblue;
+        color:white;
+    }
+    .titleContainer, .imgContainer{
+        border: solid white;
+    }
+    .imgContainer{
+        background-image:url("https://mrwallpaper.com/images/hd/4k-star-wars-luke-skywalker-fw2mumem9t6k4a8v.jpg")
+    }
+
+    #republic{
+        display:none;
+    }
+    #rebels{
+        display:block;
+    }
+    #empire{
+        display:none;
+    }
+}
+
+@media screen and (max-width:480px)
+{
+    body{
+        background-color:darkgreen;
+        color:darkkhaki;
+    }
+    .titleContainer, .imgContainer{
+        border: solid darkkhaki;
+    }
+    .imgContainer{
+        background-image:url("https://mrwallpaper.com/images/hd/yoda-in-the-woods-star-wars-iphone-6ol2apyfgv818wo9.jpg")
+    }
+
+    #republic{
+        display:block;
+    }
+    #rebels{
+        display:none;
+    }
+    #empire{
+        display:none;
+    }
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+}
+div{
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.imgContainer{
+    height:60vh;
+    background-position:center top;
+    background-size:cover;
+}
+.logo{
+    max-height:20vh;
+}
